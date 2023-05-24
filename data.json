@@ -1,0 +1,98 @@
+[
+    {
+      "id":0,
+      "name": "Katrine",
+      "breed": "Chartreux",
+      "information":
+        "The Chartreux is a rare breed of domestic cat from France and is recognised by a number of registries around the world. The Chartreux is large and muscular (called cobby) with relatively short, fine-boned limbs, and very fast reflexes.",
+      "age": "1 Year, 3 Months",
+      "lifeSpan": "11-15 years",
+      "height": "30cm",
+      "gender": "Female",
+      "imagePath": "images/1.png"
+    },
+    {     
+      "id":1,
+      "name": "Jennifer",
+      "breed": "Golden retriever pup",
+      "information":
+        "Goldens are outgoing, trustworthy, and eager-to-please family dogs, and relatively easy to train. They take a joyous and playful approach to life and maintain this puppyish behavior into adulthood. These energetic, powerful gundogs enjoy outdoor play.",
+      "age": "2 Months",
+      "lifeSpan": "10-12 years",
+      "height": "25 cm",
+      "gender": "male",
+      "imagePath": "./images/2.png"
+    },
+    {     
+      "id":2,
+      "name": "Woody",
+      "breed": "Golden Retriever",
+      "information":
+        "The Golden Retriever is a large-sized breed of dog bred as gun dogs to retrieve shot waterfowl such as ducks and upland game birds during hunting and shooting parties,[3] and were named 'retriever' because of their ability to retrieve shot game undamaged.",
+      "age": "2 year",
+      "lifeSpan": "10-12 years",
+      "height": "59 cm",
+      "gender": "Female",
+      "imagePath": "./images/3.png"
+    },
+    {     
+      "id":3,
+      "name": "Sophia",
+      "breed": "Harrier",
+      "information":
+        "The Harrier is similar to the English Foxhound, but smaller. Harriers stand between 21 and 24 inches at the shoulder, and adults weigh between 45 and 65 lbs. They do shed, have short hair and hanging ears, and come in a variety of color patterns.",
+      "age": "5 Months",
+      "lifeSpan": "12-15 year",
+      "height": "35 cm",
+      "gender": "Female",
+      "imagePath": "./images/4.png"
+    },
+    {     
+      "id":4,
+      "name": "Timmy",
+      "breed": "Scotish fold",
+      "information":
+        "The Scottish Fold is a breed of domestic cat with a natural dominant gene mutation that affects cartilage throughout the body, causing the ears to fold, bending forward and down towards the front of the head, which gives the cat what is often described as an owl-like appearance.",
+      "age": "5 months",
+      "lifeSpan": "13-15 years",
+      "height": "22cm",
+      "gender": "Male",
+      "imagePath": "./images/5.png"
+    },
+    {     
+      "id":5,
+      "name": "Charly",
+      "breed": "Beagle",
+      "information":
+        "The beagle is a breed of small hound that is similar in appearance to the much larger foxhound. The beagle is a scent hound, developed primarily for hunting hare. With a great sense of smell and superior tracking instinct, the beagle is employed as detection dog for prohibited agricultural imports and foodstuffs in quarantine around the world.",
+      "age": "1 Year",
+      "lifeSpan": "12-15 years",
+      "height": "39 cm",
+      "gender": "Male",
+      "imagePath": "./images/6.png"
+    },
+    {     
+      "id":6,
+      "name": "Scarlett",
+      "breed": "American Shorthair",
+      "information":
+        "The American Shorthair is a breed of domestic cat believed to be descended from European cats brought to North America by early settlers to protect valuable cargo from mice and rats.",
+      "age": "3 year",
+      "lifeSpan": "13 years",
+      "height": "55 cm",
+      "gender": "Female",
+      "imagePath": "./images/7.png"
+    },
+    {     
+      "id":7,
+      "name": "Freddie",
+      "breed": "Domestic Cat",
+      "information":
+        "Cats are similar in anatomy to the other felids, with a strong flexible body, quick reflexes, sharp retractable claws, and teeth adapted to killing small prey. Cat senses fit a crepuscular and predatory ecological niche.",
+      "age": "8 months",
+      "lifeSpan": "11-12 years",
+      "height": "50 cm",
+      "gender": "Female",
+      "imagePath": "images/8.png"
+    }
+  ]

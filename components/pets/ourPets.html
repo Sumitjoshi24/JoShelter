@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jo House</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="../../images/brown_in_white.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans|Roboto|Ubuntu"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../style/home.css" />
+    <link rel="stylesheet" href="./ourpets.css" />
+    <link rel="stylesheet" href="../../style/nav.css" />
+
+    <!--linking popup to ourpet-->
+    <link rel="stylesheet" href="../popups/popup.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar">
+        <a href="../../index.html">
+          <div class="logo">
+            <h3>Jo House</h3>
+            <p>Shelter for pets in India</p>
+          </div>
+        </a>
+
+        <nav>
+          <div class="nav_container">
+            <a href="../../index.html">Home</a>
+            <a href="./ourPets.html" class="active_nav">our pets</a>
+            <a href="../developers/developers.html">Developers</a>
+            <a href="../contact_us/contact_us.html">contact us</a>
+          </div>
+        </nav>
+
+        <div class="menu noSelect">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </header>
+
+    <section id="our_pet_content">
+      <div class="our_pet_content_container">
+        <div class="our_pet_title">
+          <h4>
+            Our friends who <br />
+            are looking for a house
+          </h4>
+        </div>
+        <div class="pet_row first" id="dataContainer"></div>
+      </div>
+
+      <div class="page_number">
+        <div class="page_container">
+          <span class="active_circle"><p>1</p></span>
+          <span><p>2</p></span>
+          <span><p>3</p></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span><p>10</p></span>
+        </div>
+      </div>
+
+      <!-- popup -->
+
+      <section id="popup" class="popupsection">
+        <div class="popup_container">
+          <div class="petimage">
+            <img src="../../images/2.png" alt="pet1" />
+          </div>
+          <div class="pet_detail">
+            <h4>Jennifer</h4>
+            <h6>Pooch + Labrador</h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+              efficitur blandit condimentum. Proin accumsan lorem vel gra vida
+              fringilla. Suspendisse potenti. Mauris ut pulvinar nunc. Donec
+              consectetur, diam in porta tempus, urna ligula ves tibulum nibh.
+            </p>
+            <ul type="none">
+              <li><span>•</span>Age : <span>2 Months</span></li>
+              <li><span>•</span>Life Span : <span>none</span></li>
+              <li><span>•</span>Height : <span>none</span></li>
+              <li><span>•</span>Gender : <span>none</span></li>
+            </ul>
+          </div>
+          <span class="cross_button"><p>&#10005;</p></span>
+        </div>
+      </section>
+    </section>
+
+    <footer id="footer">
+      <div class="footer_container">
+        <div class="footer_contact">
+          <h6>For questions and suggestions</h6>
+          <div class="footer_content mail">
+            <img id="mail" src="" alt="mailid" />
+            <p>sumit.joshi@qburst.com</p>
+          </div>
+
+          <div class="footer_content phone">
+            <img id="phone" src="" alt="phone number" />
+            <p>+91-82******37</p>
+          </div>
+        </div>
+        <div class="footer_address">
+          <h6>We are waiting for your visit</h6>
+          <div class="address">
+            <img id="location" src="" alt="Location Image" />
+            <p>New Delhi, India</p>
+          </div>
+        </div>
+      </div>
+      <div id="follow">
+        <a href="https://www.facebook.com/sumit.joshi.9469545/" target="_blank"
+          ><img src="../../images/fb.png" alt="fb image"
+        /></a>
+        <a href="https://github.com/Sumitjoshi24" target="_blank"
+          ><img src="../../images/github.png" alt="github image"
+        /></a>
+        <a
+          href="https://web.whatsapp.com/send?phone=918285049037"
+          target="_blank"
+          ><img src="../../images/whatsapp.png" alt="whatsapp image"
+        /></a>
+        <p>Join us Now</p>
+      </div>
+      <img
+        id="footer_dog"
+        src="../../images/footer_dog.png"
+        alt="footer Dog img"
+      />
+    </footer>
+    <p id="copyright">
+      &copy; Copyright 2023 by Joshi. &reg; All Rights Reserved. Developed by
+      Joshi
+    </p>
+
+    <script src="fetchData.js"></script>
+    <script src="../../nav.js"></script>
+    <script src="../popups/popup.js"></script>
+  </body>
+</html>
